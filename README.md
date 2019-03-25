@@ -31,3 +31,11 @@ Precompiled test:test.
 ```
 
 Maka library-nya akan disimpan di folder `.dart_tool` 
+
+## Running project dengan command line
+
+Untuk menjalankan project dart kita bisa menggunakan command line `dart` dengan perintah seperti berikut:
+
+```bash
+dart bin/main.dart
+```
