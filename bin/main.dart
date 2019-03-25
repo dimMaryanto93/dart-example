@@ -43,4 +43,11 @@ main(List<String> arguments) {
     var value = elements[i];
     print("element of numbers at [$i] is $value");
   }
+
+  var mapNumber = getMapNumbers();
+  init();
+  mapNumber.forEach((k, v) => {print("key $k dan nilainya adalah $v")});
+
+  var dimasMaryanto = getValueFromMap(1);
+  print("nilai dari variable dimasMaryanto adalah $dimasMaryanto");
 }
