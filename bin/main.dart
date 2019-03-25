@@ -26,7 +26,10 @@ main(List<String> arguments) {
 
   print("--- data type collection List ---");
   print("add a value \"10\" to list element of numbers");
-  addAValueToNumbers(10);
+  addAValueToNumbers(number: 10);
+
+  print("add value to element collection with default value");
+  addValue();
 
   var elements = getNumbers();
   var lengthOfElement = elements.length;
