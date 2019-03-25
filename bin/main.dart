@@ -1,5 +1,6 @@
 import 'package:dart_lang/dart_lang.dart';
 
+import 'classes/kategori_buku.dart';
 import 'variables/character_data_type.dart';
 import 'variables/collection_data_type.dart';
 import 'variables/date_data_type.dart';
@@ -53,4 +54,13 @@ main(List<String> arguments) {
 
   var dimasMaryanto = getValueFromMap(1);
   print("nilai dari variable dimasMaryanto adalah $dimasMaryanto");
+
+  var java = new KategoriBuku('01', 'Bahasa Pemograman Java');
+  var js = new KategoriBuku('02', 'Bahasa Pemograman JavaScript (js)');
+  List<KategoriBuku> listKategoriBuku = [java, js];
+  listKategoriBuku.forEach((v) => {
+    print(v.id),
+    print(v.nama)
+  });
+
 }
