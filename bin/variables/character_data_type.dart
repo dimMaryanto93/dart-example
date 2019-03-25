@@ -3,4 +3,5 @@ String _lastName = "Maryanto";
 // fitur dalam character atau string
 String concatnation = _firstName + " " + _lastName;
 String interpolation = "halo perkenalkan nama saya $_firstName $_lastName";
+String escapeCharacters = "halo, $_firstName\'s Macbook Pro \n\"$_lastName\"";
 

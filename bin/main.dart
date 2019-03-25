@@ -14,4 +14,5 @@ main(List<String> arguments) {
   print("--- data type string ---");
   print('nilai dari concatnation : $concatnation');
   print('nilai dari interpolation: $interpolation');
+  print("nilai dari escapeCharacter: $escapeCharacters");
 }
