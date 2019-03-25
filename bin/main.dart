@@ -1,6 +1,7 @@
 import 'package:dart_lang/dart_lang.dart';
 
 import 'variables/character_data_type.dart';
+import 'variables/collection_data_type.dart';
 import 'variables/date_data_type.dart';
 import 'variables/number_data_type.dart';
 
@@ -22,4 +23,16 @@ main(List<String> arguments) {
   print("tanggal ulang tahun saya: $tanggal");
   tanggal = formatIndonesiaDateTime(timeSchedule);
   print("waktu schedule : $tanggal");
+
+  print("--- data type collection List ---");
+  print("add a value \"10\" to list element of numbers");
+  addAValueToNumbers(10);
+
+  var elements = getNumbers();
+  var lengthOfElement = elements.length;
+  print("jumlah element of $lengthOfElement");
+  for (int i = 0; i < lengthOfElement; i++) {
+    var value = elements[i];
+    print("element of numbers at [$i] is $value");
+  }
 }
