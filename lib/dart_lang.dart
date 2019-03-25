@@ -7,3 +7,7 @@ int calculate() {
 String formatIndonesianDate(DateTime date) {
   return formatDate(date, [dd, '/', MM, '/', yyyy]);
 }
+
+String formatIndonesiaDateTime(DateTime date) {
+  return formatDate(date, [dd, '/', MM, '/', yyyy,' ', HH, ':', mm, ':', ss]);
+}

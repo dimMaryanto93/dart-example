@@ -18,4 +18,8 @@ main(List<String> arguments) {
   print("--- data type date ---");
   var tanggal = formatIndonesianDate(tanggalSekarang);
   print("nilai dari date : $tanggal");
+  tanggal = formatIndonesiaDateTime(birthday);
+  print("tanggal ulang tahun saya: $tanggal");
+  tanggal = formatIndonesiaDateTime(timeSchedule);
+  print("waktu schedule : $tanggal");
 }
