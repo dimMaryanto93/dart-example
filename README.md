@@ -12,3 +12,22 @@ Project dart struktur directorynya bebas tidak seperti java yang sangat terstruk
 - `bin` source code dart
 - `lib` plugin atau method yang kita buat untuk dijalankan secara global. untuk menyimpan service http, perhitungan dan lain-lain.
 - `test` untuk menggunakan unit testing, seperti `junit` jika di java
+
+## Project management
+
+Command line, untuk project management system yang digunakan untuk bahasa pemograman Dart yaitu `pub`. Untuk pertama kali kita perlu mendownload dependencies-nya dengan menggunakan perintah: 
+
+```bash
+pub get
+```
+
+Berikut outputnya:
+
+```bash
+Resolving dependencies... 
+Got dependencies!
+Precompiling executables... (11.1s)
+Precompiled test:test.
+```
+
+Maka library-nya akan disimpan di folder `.dart_tool` 
