@@ -30,7 +30,15 @@ main(List<String> arguments) {
 
   var elements = getNumbers();
   var lengthOfElement = elements.length;
-  print("jumlah element of $lengthOfElement");
+  print("sum elements of numbers is $lengthOfElement");
+  for (int i = 0; i < lengthOfElement; i++) {
+    var value = elements[i];
+    print("element of numbers at [$i] is $value");
+  }
+
+  elements = getUniqueNumbers().toList();
+  lengthOfElement = elements.length;
+  print("count elements of uniqueElements is $lengthOfElement");
   for (int i = 0; i < lengthOfElement; i++) {
     var value = elements[i];
     print("element of numbers at [$i] is $value");
